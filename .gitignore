@@ -1,3 +1,6 @@
 #IDEA
 *.iml
 .idea/*
+
+# Jupyter Notebook
+.ipynb_checkpoints/*
