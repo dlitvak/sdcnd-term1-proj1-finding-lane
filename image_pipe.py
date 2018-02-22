@@ -1,14 +1,16 @@
-import matplotlib.pyplot as plt
-import matplotlib.image as mpimg
 import os
+import matplotlib.image as mpimg
 import pipeline_functions as pf
+
+"""
+Process images from TEST_INPUT_DIR and output them into TEST_OUTPUT_DIR
+"""
+TEST_INPUT_DIR = "test_images/"
+TEST_OUTPUT_DIR = "test_images_out/"
 
 def dir_exists(dir):
     """Test if dir exists"""
     return os.path.exists(dir) and os.path.isdir(dir)
-
-TEST_INPUT_DIR = "test_images/"
-TEST_OUTPUT_DIR = "test_images_out/"
 
 if not dir_exists(TEST_OUTPUT_DIR):
     os.mkdir(TEST_OUTPUT_DIR)
