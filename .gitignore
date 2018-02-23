@@ -4,3 +4,9 @@
 
 # Jupyter Notebook
 .ipynb_checkpoints/*
+
+#Mac
+.DS_Store
+
+#Python
+__pycache__
